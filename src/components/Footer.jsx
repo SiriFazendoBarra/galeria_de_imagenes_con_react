@@ -1,9 +1,9 @@
-import Badge from 'react-bootstrap/Badge'
+import Button from 'react-bootstrap/Button'
 
 function Footer () {
     return(
-        <footer className="py-2" style={{background:'yellow'}}>
-            <h2>Footer <Badge>hola</Badge></h2>
+        <footer className="footer py-2 d-flex justify-content-center align-items-center" style={{gridArea:"footer", Height:"10vh", background:"#111"}}>
+            <p className='m-0'>Galería de imágenes <Button variant='secondary'>Rick & Morty API</Button></p>
         </footer>
     )
 }

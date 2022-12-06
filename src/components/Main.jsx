@@ -1,15 +1,15 @@
 import Product from './Product'
-import BD from './BD'
+import BD from './Data'
 
 function Main (){
     return(
-        <main className='container d-flex gap-2 flex-wrap justify-content-center py-2 '>
-            <Product title="Rick Sanchez" src="https://rickandmortyapi.com/api/character/avatar/1.jpeg"/>
-            <Product title="Morty Smith" src="https://rickandmortyapi.com/api/character/avatar/2.jpeg"/>
-            <Product title="Summer Smith" src="https://rickandmortyapi.com/api/character/avatar/3.jpeg"/>
-            <Product title="Beth Smith" src="https://rickandmortyapi.com/api/character/avatar/4.jpeg"/>
-            <Product title="Jerry Smith" src="https://rickandmortyapi.com/api/character/avatar/5.jpeg"/>
-            <Product title="Abadango Cluster Princess" src="https://rickandmortyapi.com/api/character/avatar/6.jpeg"/>
+        <main className='main d-grid p-4 gap-4' style={{gridArea:"main", gridTemplateColumns:"repeat(auto-fill, minmax(min(50%, 15rem), 1fr))", background:"#381446" }}>
+            <Product title="Rick Sanchez" src="https://rickandmortyapi.com/api/character/avatar/1.jpeg" text="loremasdasdasdas asdasd"/>
+            <Product title="Morty Smith" src="https://rickandmortyapi.com/api/character/avatar/2.jpeg" text="loremasdasdasdas asdasd"/>
+            <Product title="Summer Smith" src="https://rickandmortyapi.com/api/character/avatar/3.jpeg" text="loremasdasdasdas asdasd"/>
+            <Product title="Beth Smith" src="https://rickandmortyapi.com/api/character/avatar/4.jpeg" text="loremasdasdasdas asdasd"/>
+            <Product title="Jerry Smith" src="https://rickandmortyapi.com/api/character/avatar/5.jpeg" text="loremasdasdasdas asdasd"/>
+            <Product title="Abadango Cluster Princess" src="https://rickandmortyapi.com/api/character/avatar/6.jpeg" text="loremasdasdasdas asdasd"/>
         </main>
         
     )
