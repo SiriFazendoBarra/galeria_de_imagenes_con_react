@@ -1,5 +1,7 @@
 
 .App {
+  overflow: auto;
+  background-color: #381446;
   height: 100vh;
   text-align: center;
   display: grid;
